@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+table, tr, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+select, input {
+  width: 70%;
+}
+
+option, select {
+  font-weight: bold;
+}
+
+/* .mainContainer {
+  width: 400px;
+  margin: 0 auto;
+  background: #404040;
+  padding: 10px 0;
+  color: #f2f2f2
+} */
+
+.passwordContainer {
+  background: #E01A4F;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+.passLengthCtn {
+  display: flex; 
+  justify-content: space-between;
+  padding: 0 20px
+}
+
+input[type='range'] {
+  width: 300px;
+  margin: 0;
+  accent-color: #E01A4F;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #E01A4F;
+}
+
+.strengthCtn {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center
+}
+
+button {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  background-color:#E01A4F;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: #E01A4F;
+  background-color: #f2f2f2;
+  transition: .5s;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  color: #fff;
+  background-color: #E01A4F;
+}
