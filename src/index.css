@@ -2,15 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-table, tr, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 10px;
-}
-
-td {
-  text-align: center;
-}
 
 select, input {
   width: 70%;
